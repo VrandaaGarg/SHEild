@@ -17,7 +17,7 @@ function Footer() {
               <Link
                 smooth={true}
                 duration={500}
-                to=""
+                to="SHEild"
                 className=" cursor-pointer"
               >
                 Home
