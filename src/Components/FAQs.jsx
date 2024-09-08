@@ -31,7 +31,7 @@ function FAQs() {
   ];
 
   return (
-    <div className="px-16 pt-24" id="FAQs">
+    <div className="px-16 pt-12" id="FAQs">
       <section className="">
         <div className="">
           <div className="text-[25px] text-center lg:text-4xl md:py-10 font-semibold">
