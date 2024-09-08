@@ -61,7 +61,7 @@ function FAQs() {
                         aria-expanded={activeIndex === index}
                         onClick={() => handleToggle(index)}
                       >
-                        <h5>{faq.question}</h5>
+                        <h5 className="text-left">{faq.question}</h5>
                         <svg
                           className={`text-gray-900 transition duration-500 ${
                             activeIndex === index ? "rotate-180" : ""
