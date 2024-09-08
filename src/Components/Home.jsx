@@ -4,12 +4,11 @@ import Team from "./Team";
 import Features from "./Features";
 import About from "./About";
 import Landing from "./Landing";
-import CardCarousel from "./Landing";
 
 function Home() {
   return (
     <div className="">
-      <CardCarousel />
+      <Landing />
       <About />
       <Features />
       <FAQs />

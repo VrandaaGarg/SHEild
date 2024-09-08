@@ -55,16 +55,15 @@ function Header() {
         >
           <ul className="font-medium flex flex-col text-xl p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
             <li>
-              <NavLink
-                to="/"
-                className={({ isActive }) =>
-                  `block py-2 px-3 rounded hover:text-blue-600 md:hover:bg-transparent md:border-0  md:p-0`
-                }
-                aria-current="page"
-                onClick={closeMenu} // Close menu on click
+              <Link
+                to="SHEild"
+                smooth={true}
+                duration={500}
+                className="block py-2 px-3 rounded cursor-pointer hover:text-blue-600 md:hover:bg-transparent md:border-0  md:p-0"
+                onClick={closeMenu}
               >
                 Home
-              </NavLink>
+              </Link>
             </li>
             <li>
               <Link
@@ -72,7 +71,7 @@ function Header() {
                 smooth={true}
                 duration={500}
                 className="block py-2 px-3 rounded cursor-pointer hover:text-blue-600 md:hover:bg-transparent md:border-0  md:p-0"
-                onClick={closeMenu} // Close menu on click
+                onClick={closeMenu}
               >
                 About
               </Link>
@@ -84,7 +83,7 @@ function Header() {
                 smooth={true}
                 duration={500}
                 className="block py-2 px-3 rounded cursor-pointer hover:text-blue-600 md:hover:bg-transparent md:border-0 md:p-0"
-                onClick={closeMenu} // Close menu on click
+                onClick={closeMenu}
               >
                 Features
               </Link>
@@ -96,7 +95,7 @@ function Header() {
                 smooth={true}
                 duration={500}
                 className="block py-2 px-3 rounded cursor-pointer hover:text-blue-600 md:hover:bg-transparent md:border-0  md:p-0"
-                onClick={closeMenu} // Close menu on click
+                onClick={closeMenu}
               >
                 FAQs
               </Link>
@@ -108,7 +107,7 @@ function Header() {
                 smooth={true}
                 duration={500}
                 className="block py-2 px-3 rounded cursor-pointer hover:text-blue-600 md:hover:bg-transparent md:border-0  md:p-0"
-                onClick={closeMenu} // Close menu on click
+                onClick={closeMenu}
               >
                 Team
               </Link>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Landing() {
   return (
-    <div className="pt-12">
+    <div id="SHEild" className="pt-12">
       <div className="w-full h-[88vh] grid place-content-center relative mb-5 py-10">
         <img
           src="/bg3.jpg"
