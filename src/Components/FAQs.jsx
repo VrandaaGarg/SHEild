@@ -31,10 +31,10 @@ function FAQs() {
   ];
 
   return (
-    <div className="">
+    <div className="px-16 pt-24" id="FAQs">
       <section className="">
         <div className="">
-          <div className="text-[25px] lg:text-4xl md:py-10 font-semibold">
+          <div className="text-[25px] text-center lg:text-4xl md:py-10 font-semibold">
             Frequently Asked Questions
           </div>
           <div className="flex flex-col justify-center items-center md:gap-x-14 md:gap-y-5 lg:flex-row ">
@@ -54,7 +54,7 @@ function FAQs() {
                   {faqData.map((faq, index) => (
                     <div
                       key={index}
-                      className="accordion py-4 md:py-8 border-b border-solid border-gray-200"
+                      className="accordion py-4 md:py-6 border-b border-solid border-gray-200"
                     >
                       <button
                         className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-600 w-full transition duration-500 "
