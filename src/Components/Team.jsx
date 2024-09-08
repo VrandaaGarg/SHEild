@@ -11,7 +11,7 @@ function Team() {
     {
       id: 1,
       name: "Siddharth Singhal",
-      role: "Full Stack Developer",
+      role: "App Development",
       image: "/Siddharth.png",
       insta:
         "https://www.instagram.com/siddharthsinghal_30?igsh=MWpvMjF3ZHJjOHFwNg==",
@@ -22,7 +22,7 @@ function Team() {
     {
       id: 2,
       name: "Pranit Khandelwal",
-      role: "Full Stack Developer",
+      role: "UI/UX",
       image: "/Pranit.png",
       insta: "https://www.instagram.com/pranit._11/",
       linkdn: "https://www.linkedin.com/in/pranit-khandelwal-951913269/",
@@ -31,7 +31,7 @@ function Team() {
     {
       id: 3,
       name: "Harsh Kumar",
-      role: "Full Stack Developer",
+      role: "Machine Learning ",
       image: "/Harsh.png",
       insta: "https://www.instagram.com/harshk._.14/",
       linkdn: "",
@@ -40,7 +40,7 @@ function Team() {
     {
       id: 4,
       name: "Ishaan Verma",
-      role: "Full Stack Developer",
+      role: "Machine Learning ",
       image: "/Ishan.png",
       insta: "https://www.instagram.com/ishaanv_06/",
       linkdn: "https://www.linkedin.com/in/ishaan-v/",
@@ -49,7 +49,7 @@ function Team() {
     {
       id: 5,
       name: "Vranda Garg",
-      role: "Frontend Developer",
+      role: "Frontend Development",
       image: "/Vranda.png",
       insta: "https://www.instagram.com/vranda_garg/",
       linkdn: "https://www.linkedin.com/in/vranda-garg-b68011293/",
@@ -59,7 +59,7 @@ function Team() {
     {
       id: 6,
       name: "Rishi Singh",
-      role: "Full Stack Developer",
+      role: "Frontend Development",
       image: "/Rishi.png",
       insta: "https://www.instagram.com/_rishush_",
       linkdn: "https://www.linkedin.com/in/rishush/",
