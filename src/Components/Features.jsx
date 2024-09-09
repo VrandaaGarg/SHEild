@@ -22,18 +22,28 @@ const Features = () => {
       answer:
         "Easily book government-authorized cabs when you're in a remote area with no transport options. Safe, reliable, and available at your fingertips for quick travel to your destination.",
     },
+    {
+      question: "Safe Places Database",
+      answer:
+        " Safe Places Database provides an interactive map that highlights safe and unsafe areas based on women's reviews, police station locations, past records, and other safety metrics. It helps you make informed decisions about where to go, guiding you to safer routes and nearby secure locations like police stations and hospitals.",
+    },
+    {
+      question: " Friend & Family Network",
+      answer:
+        " Automatically keep your trusted contacts updated during emergencies. Whether you're in distress or traveling in an unfamiliar area, your friends and family receive real-time updates to provide extra support and peace of mind.",
+    },
   ];
 
   return (
-    <div id="Features" className="max-w-4xl  py-12 pt-16 mx-12 md:mx-auto">
+    <div id="Features" className="max-w-6xl  py-12 pt-16 mx-12 md:mx-auto">
       <h2 className="text-4xl text-black  font-bold mb-10 text-center">
         FEATURES
       </h2>
-      <div className="grid gap-8  md:grid-cols-2">
+      <div className="grid gap-8  md:grid-cols-3 px-10 ">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="bg-white hover:scale-105 cursor-pointer duration-100 text-black hover:bg-amber-300  p-6 rounded-lg shadow-md"
+            className="bg-white  hover:scale-105 cursor-pointer duration-100 text-black hover:bg-amber-300  p-6 rounded-lg shadow-md"
           >
             <div className="flex items-start">
               <div className="w-10 h-10 flex-shrink-0  bg-blue-500 text-white  rounded-full flex items-center justify-center mr-4">

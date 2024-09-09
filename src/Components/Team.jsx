@@ -23,7 +23,7 @@ function Team() {
       id: 2,
       name: "Pranit Khandelwal",
       role: "UI/UX",
-      image: "/Pranit.png",
+      image: "/pranit2.png",
       insta: "https://www.instagram.com/pranit._11/",
       linkdn: "https://www.linkedin.com/in/pranit-khandelwal-951913269/",
       github: "https://github.com/pranit-pk",
