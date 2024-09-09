@@ -75,7 +75,7 @@ function Team() {
         {team.map((data) => (
           <div
             key={data.id}
-            className="w-64 bg-white shadow-lg rounded-lg overflow-hidden mb-8"
+            className="w-64 bg-white hover:scale-105 duration-150 shadow-lg rounded-lg overflow-hidden mb-8"
           >
             <div className="relative my-3">
               <div className="absolute inset-0 mx-5">
