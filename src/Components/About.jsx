@@ -27,15 +27,21 @@ function About() {
           <h4 className="text-base md:text-lg text-blue-800 font-semibold">
             -Mahatma Gandhi
           </h4>
-          <div className="flex place-content-center">
-            <button className="bg-gray-800 my-5 duration-200 text-white px-4 py-2 shadow-md hover:scale-105 rounded-xl flex items-center">
-              <FontAwesomeIcon icon={faGooglePlay} className="mr-2 text-xl " />
-              Download
-            </button>
-          </div>
+          <div className="flex place-content-center"></div>
         </div>
-        <div className="flex-1 pt-6 md:pt-0">
-          <img src="/about2.png" alt="" />
+        <div className="flex-1 pt-6 md:pt-0 grid place-content-center">
+          <img src="/qr.jpg" alt="" className="h-36 md:h-72" />
+          <div className="grid place-content-center">
+            <a href="https://drive.google.com/file/d/1r_yq0F_SPDzYG8RkqT3qNlr7vBQ6z-bt/view?usp=drive_link">
+              <button className="bg-gray-800 my-5 duration-200 text-lg md:text-3xl text-white px-4 py-2 md:py-3 shadow-md hover:scale-105 rounded-xl flex items-center">
+                <FontAwesomeIcon
+                  icon={faGooglePlay}
+                  className="mr-2 text-xl "
+                />
+                Download
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
