@@ -35,7 +35,7 @@ const Features = () => {
   ];
 
   return (
-    <div id="Features" className="max-w-6xl  py-12 pt-16 mx-12 md:mx-auto">
+    <div id="Features" className="max-w-6xl  py-12 pt-16 mx-2 md:mx-auto">
       <h2 className="text-4xl text-black  font-bold mb-10 text-center">
         FEATURES
       </h2>
