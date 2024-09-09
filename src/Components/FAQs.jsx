@@ -27,7 +27,7 @@ function FAQs() {
     {
       question: "Does the app work offline?",
       answer:
-        "While certain features, such as location sharing and real-time alerts, require an internet connection, some features like the Safe Places Database may offer offline access based on pre-downloaded data for the area.",
+        "While certain features, such as location sharing and real-time alerts, require an internet connection, some features like the Safe Places Database,SOS,location sharing may offer offline access based on pre-downloaded data for the area.",
     },
   ];
 
