@@ -3,24 +3,24 @@ import React from "react";
 const Features = () => {
   const features = [
     {
-      question: "How do I use the RecycleItem SearchBar?",
+      question: "Real-Time Emergency Response",
       answer:
-        "To use the RecycleItem SearchBar, simply type the name of the item you wish to recycle into the search bar. You will receive detailed information about the item's recyclability, material composition, recycling instructions, local recycling guidelines, and more.",
+        "Stay connected with local emergency services for fast, reliable assistance when you need it most. Our system integrates with emergency responders, drastically reducing response times and enhancing your safety during critical moments.",
     },
     {
-      question: "How can I contact customer support?",
+      question: "SOS Distress Signal",
       answer:
-        " Subscribe to our newsletter to get the latest updates and announcements directly to your inbox. Additionally, you can send us an email at ecovatika@gmail.com, and our support team will get back to you as soon as possible.",
+        "With just one tap, activate the SOS Distress Signal to instantly alert authorities and your trusted contacts. Your real-time location and a distress message are sent immediately, ensuring rapid action when every second counts.",
     },
     {
-      question: "What is EcoScore?",
+      question: "Live Location Sharing",
       answer:
-        "EcoScore is a carbon footprint calculator available on EcoVatika. By inputting data such as O3, NO2, particulate matter, solar energy consumption, fuel consumption (L), and car travel (km), you can estimate your carbon equivalents and understand your environmental impact.",
+        "Keep emergency services and your loved ones updated with real-time location tracking. This feature helps responders and contacts track your movements during emergencies, improving the chances of a swift and safe rescue.",
     },
     {
-      question: "What is the Sustainable Quiz?",
+      question: "Cab-Booking Service",
       answer:
-        "The Sustainable Quiz is an engaging tool on EcoVatika that tests your knowledge of sustainability. Answer 10 questions to see how much you know about eco-friendly practices and get tips to improve your sustainability efforts.",
+        "Easily book government-authorized cabs when you're in a remote area with no transport options. Safe, reliable, and available at your fingertips for quick travel to your destination.",
     },
   ];
 

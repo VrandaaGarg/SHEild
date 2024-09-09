@@ -16,15 +16,30 @@ function Header() {
   return (
     <nav className="bg-white border-gray-200 z-30 fixed w-full">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <NavLink
-          to="/"
+        {/* <NavLink
+          to="SHEild"
           className="flex items-center space-x-3 rtl:space-x-reverse"
-          onClick={closeMenu} // Close menu on click
+          onClick={closeMenu}
         >
+          <img src="/logo2.png" className="h-10" alt="" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap">
             SHEild
           </span>
-        </NavLink>
+        </NavLink> */}
+
+        <Link
+          to="SHEild"
+          smooth={true}
+          duration={500}
+          className="flex cursor-pointer items-center space-x-3 rtl:space-x-reverse"
+          onClick={closeMenu}
+        >
+          <img src="/logo2.png" className="h-10" alt="" />
+          <span className="self-center text-2xl font-semibold whitespace-nowrap">
+            SHEild
+          </span>
+        </Link>
+
         <button
           onClick={toggleMenu}
           type="button"

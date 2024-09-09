@@ -9,24 +9,25 @@ function FAQs() {
 
   const faqData = [
     {
-      question: "How to create an account?",
+      question: "How does the SOS Distress Signal work?",
       answer:
-        "To create an account, find the 'Sign up' or 'Create account' button, fill out the registration form with your personal information, and click 'Create account' or 'Sign up.' Verify your email address if needed, and then log in to start using the platform.",
+        "The SOS Distress Signal is an easily accessible panic button that, when activated, immediately sends an alert to local authorities and designated trusted contacts with your location and a distress message for urgent assistance.",
     },
     {
-      question: "Have any trust issue?",
+      question:
+        "How can I ensure my family and friends are updated about my safety?",
       answer:
-        "Our focus on providing robust and user-friendly content management capabilities ensures that you can manage your content with confidence, and achieve your content marketing goals with ease.",
+        "Through the Friend & Family Network feature, automatic updates are sent to your trusted contacts during emergencies, keeping them informed of your status and location for added support and reassurance.",
     },
     {
-      question: "How can I reset my password?",
+      question: "Are my location and personal data secure?",
       answer:
-        "You can reset your password by clicking the 'Forgot password' link on the login page, following the steps to receive a password reset link via email, and updating your password securely.",
+        "Yes, we prioritize your privacy and security. All data shared with emergency services and contacts is encrypted and only used during emergencies.",
     },
     {
-      question: "What is the payment process?",
+      question: "Does the app work offline?",
       answer:
-        "You can make payments via various methods such as credit card, debit card, and PayPal. Once the payment is completed, you'll receive a confirmation email.",
+        "While certain features, such as location sharing and real-time alerts, require an internet connection, some features like the Safe Places Database may offer offline access based on pre-downloaded data for the area.",
     },
   ];
 
