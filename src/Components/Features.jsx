@@ -28,9 +28,9 @@ const Features = () => {
         " Safe Places Database provides an interactive map that highlights safe and unsafe areas based on women's reviews, police station locations, past records, and other safety metrics. It helps you make informed decisions about where to go, guiding you to safer routes and nearby secure locations like police stations and hospitals.",
     },
     {
-      question: " Friend & Family Network",
+      question: "Women's Safety Community Chat",
       answer:
-        " Automatically keep your trusted contacts updated during emergencies. Whether you're in distress or traveling in an unfamiliar area, your friends and family receive real-time updates to provide extra support and peace of mind.",
+        "Our platform provides a dedicated chat space where women can connect and support each other. It offers a safe environment to discuss local areas, plan carpools for late-night travel, and share safety tips.",
     },
   ];
 
